@@ -4,6 +4,8 @@
  * License: Orihuela Corp.
  */
 
+ console.log("We got this far, yo")
+
  // Define Variables
  make = "Ghia";
  model = "Volkswagen Karmann";
