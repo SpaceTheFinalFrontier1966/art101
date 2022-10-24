@@ -1,0 +1,68 @@
+h1 {
+    color: #fcd12a;
+    font-size: 500%;
+}
+
+p {
+    font-family: "Georgia";
+    color: blue;
+    text-indent: 30px;
+    margin-left: 20px;
+}
+
+ul {
+  border: dotted 2px green;
+  font-sized:20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 700px;
+}
+
+li {
+  border: 5px solid #000000;
+  background: #8cd3ff;
+}
+
+li:hover {
+  background: #ff8d95;
+}
+
+#big-table {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 16px;
+  border: 7px solid #ffffff;
+  background: rgba(10,10,10,0.8)
+}
+
+#stuff {
+  color: white;
+}
+
+#content {
+    background-color: #8cd3ff;
+    width: 1000px;
+    min-height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: dotted 1px #444444;
+    font-size: 20px;
+}
+
+#my-portrait {
+    width: 500px;
+}
+
+#file-structure {
+    width: 200px;
+}
+
+body {
+  background: url("../img/Targaryen tile background.png") repeat fixed;
+}
+
+pre {
+  color: #828282;
+}
