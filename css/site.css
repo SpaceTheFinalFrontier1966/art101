@@ -1,5 +1,5 @@
 h1 {
-    color: red;
+    color: #fcd12a;
     font-size: 500%;
 }
 
@@ -25,6 +25,22 @@ li {
   background: #8cd3ff;
 }
 
+li:hover {
+  background: #ff8d95;
+}
+
+#big-table {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 16px;
+  border: 7px solid #ffffff;
+  background: rgba(10,10,10,0.8)
+}
+
+#stuff {
+  color: white;
+}
+
 #content {
     background-color: #8cd3ff;
     width: 1000px;
@@ -44,5 +60,9 @@ li {
 }
 
 body {
-  background: url("../img/Targaryen tile background.png") repeat fixed:
+  background: url("../img/Targaryen tile background.png") repeat fixed;
+}
+
+pre {
+  color: #828282;
 }
