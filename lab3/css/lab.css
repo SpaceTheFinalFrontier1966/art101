@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+    font-size: 400%;
+}
+
+h2 {
+    color: green;
+    font-size: 150%;
+}
+
+p {
+    font-family: "Times New Roman";
+    text-indent: 30px;
+    margin-left: 20px;
+}
+
+#content {
+    background-color: #000000;
+    width: 1000px;
+    min-height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: dotted 1px #444444;
+    font-size: 20px;
+}
