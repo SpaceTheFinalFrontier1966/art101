@@ -33,6 +33,30 @@ li:hover {
   background: rgba(10,10,10,0.8)
 }
 
+#challenge {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 18px;
+  border: 8px solid #ff8d95;
+  background: rgba(10,10,10,0.8)
+}
+
+#results {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  border: 10px solid #8cd3ff;
+  background: rgba(10,10,10,0.8)
+}
+
+#output {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 40px;
+  border: 20px solid #444444;
+  background: rgba(10,10,10,0.8)
+}
+
 #stuff {
   color: white;
 }
