@@ -4,7 +4,7 @@
 *Lab 16: JSON and APIs
 **/
 
-$("#starting").click(function(){
+$("#activate").click(function(){
   console.log("Button activated");
 
   var num = Math.floor(Math.random()*2705);
